@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 8</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-title">
+                <h3 class="fw-bold">
+                    Bookmarker
+                </h3>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row booking-sec gy-2 text-center">
+                <h2 class="sec-title fw-bold mt-3 mb-4">Bookmark your favorite sites</h2>
+                <p class="fw-bold">Site Name</p>
+                <input id="siteName" placeholder="Bookmark Name" type="text">
+                <p id="nameError">Name is required</p>
+                <p class="fw-bold">Site URL</p>
+                <input id="siteUrl" placeholder="Website URL" type="text">
+                <p id="urlError">Url Field is required</p>
+                <div class="sec-btn">
+                    <button class="btn btn-primary" onclick="addingData()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div id="bookingList" class="row">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-text">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
